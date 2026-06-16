@@ -1,128 +1,39 @@
-# Alert Triage Mini-View
+## Key Decisions and Trade-offs
 
-A small Next.js application for SOC analysts to triage security alerts: filter, sort, review details in a split-pane layout, and update alert status in memory. Includes a reference ASP.NET backend and SQL schema for production status updates.
+My main UX improvement is a bulk status update action that lets the user set a selected batch of alerts to a specific status. This is because SOC analysts often receive alert floods where many alerts come in with the same root cause, and are often resolved or updated in status all at once as the problem is addressed.
 
-## Features
+The agent initially defaulted to a modal drawer for the alert details view. I overrode this and changed it to a split-pane after thinking through the analyst workflow, allowing users to see the alert list and details simultaneously.
 
-- **~200 mock alerts** loaded from static JSON (`id`, `title`, `severity`, `status`, `source`, `createdAt`, `assignee`)
-- **Sortable / filterable list** — severity, status, source, and free-text search across title, ID, and assignee
-- **Split-pane layout** — list and detail panel side-by-side (no modal/drawer)
-- **In-memory status updates** — single alert via detail panel dropdown
-- **Bulk status update** — select multiple alerts and apply a status in one action
-- **Keyboard navigation** — `↑`/`↓` or `j`/`k` to move selection, `Space` to toggle checkbox
+## AI Coding Agent Usage
 
-### UX improvement: Bulk status update
+I used Cursor Agents throughout.
 
-**Rationale:** During alert floods, analysts need to dismiss or escalate dozens of related alerts in one action instead of opening each one individually.
+### What I delegated
 
-## Quick start (frontend)
+I delegated:
+- Initial file and folder scaffolding
+- TypeScript type definitions (`Alert`, `AlertStatus`, `State`, `Action` union)
+- Reducer skeleton
+- Mock JSON generation
 
-Requires **Node.js 20+** (Next.js 16).
+I also used it to generate:
+- The ASP.NET controller stub
+- SQL schema (see `backend/` folder)
 
-```bash
-cd alert-triage-app
-npm install
-npm run dev
-```
+### Agent setup and workflow
 
-Open [http://localhost:3000](http://localhost:3000).
+I used a Cursor agent workspace with an initial Next.js project. I prompted it with the key requirements and also asked it to build itself a tool for generating mock JSON data for testing.
 
-### Regenerate mock data
+I prompted it to first generate an implementation plan, then reviewed its checklist and task list before proceeding.
 
-```bash
-node scripts/generate-alerts.mjs
-```
+### Where I overrode or steered
 
-## Project structure
+The agent defaulted to a modal drawer, which I changed to a split-pane after considering the analyst workflow.
 
-```
-alert-triage-app/     Next.js frontend
-  app/                App Router pages and global styles
-  components/         Triage UI (list, detail, filters, bulk actions)
-  data/alerts.json    ~200 generated mock alerts
-  lib/                Reducer, filter/sort utilities
-  types/alert.ts      Shared TypeScript types
+## Production Improvements
 
-backend/
-  schema.sql          SQL Server tables + indexes
-  AlertTriage.Api/    ASP.NET minimal API (reference implementation)
-```
+For production, the controller and SQL schema would need additional improvements. Authentication should be addressed with a real auth server. I would also implement getter endpoints and rate limiting to protect servers from overloading.
 
-## State management
+I would put more emphasis on complete test cases and include them in the agent's test loop.
 
-All alert state is client-side:
-
-- `useReducer` — alert list mutations, row selection, bulk selection
-- `useState` — filter and sort UI state
-
-No Redux, server actions, or API calls from the frontend. Changes do not persist across page refresh.
-
-## Backend (reference)
-
-Minimal ASP.NET 8 API demonstrating how status updates would work against SQL Server. Not wired to the frontend.
-
-### Schema
-
-See [`backend/schema.sql`](backend/schema.sql):
-
-- `Alerts` — alert records with `ROWVERSION` for optimistic concurrency
-- `AlertStatusHistory` — audit trail for every status change
-
-### Endpoints
-
-| Method | Path | Description |
-|--------|------|-------------|
-| `PATCH` | `/api/alerts/{id}/status` | Update one alert's status |
-| `PATCH` | `/api/alerts/bulk-status` | Update up to 100 alerts |
-
-**Single update body:**
-
-```json
-{
-  "status": "Resolved",
-  "expectedRowVersion": "base64-encoded-rowversion"
-}
-```
-
-**Bulk update body:**
-
-```json
-{
-  "ids": ["guid1", "guid2"],
-  "status": "False Positive"
-}
-```
-
-Pass analyst identity via `X-Analyst-Id` header for audit logging.
-
-### Run the API
-
-Requires **.NET 8 SDK** and SQL Server.
-
-```bash
-# Apply schema to your database first (schema.sql)
-cd backend/AlertTriage.Api
-dotnet build
-dotnet run
-```
-
-Configure connection string in `appsettings.json`.
-
-## Production readiness
-
-| Concern | Approach |
-|---------|----------|
-| **Concurrency** | `ROWVERSION` optimistic locking; return 409 on stale writes |
-| **Audit trail** | `AlertStatusHistory` table; never overwrite silently |
-| **AuthZ** | JWT + role claims (`Analyst`, `Lead`); only assignees or leads can resolve |
-| **Validation** | Enum whitelist, max batch size (100), id existence checks |
-| **Observability** | Structured logging, correlation IDs, metrics on triage latency |
-| **Resilience** | Idempotency key header on PATCH; retry-safe |
-| **Scale** | Indexed `(Status, Severity, CreatedAt)`; paginated list API |
-| **Frontend wire-up** | Optimistic UI update + rollback on 409; debounced server-side search |
-
-## Assumptions
-
-- Frontend uses in-memory state only; no persistence layer
-- Mock data is static JSON imported at build time
-- Backend is illustrative; frontend does not call it
+I would also install rulesets for code brevity. A recent open source project, [ponytail](https://github.com/DietrichGebert/ponytail), looks very promising. It enforces agents to use libraries, dependencies, and existing code where possible instead of constantly building net new code. This minimizes the impact footprint of the agent while still completing its task, making the output easier to maintain, debug, more token friendly, and faster.
