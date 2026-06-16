@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "0afe646c-ba7f-4871-a5f8-48c6f537b913",
+    "title": "Suspicious registry modification on WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-15T08:38:48.085Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "3423bbe8-28e9-4589-80ce-a01279833e03",
+    "title": "Credential dumping activity on WIN-DC01",
+    "severity": "High",
+    "status": "False Positive",
+    "source": "Splunk",
+    "createdAt": "2026-06-11T22:23:29.831Z",
+    "assignee": null
+  },
+  {
+    "id": "f9a37bfd-c97d-4599-836a-9c42513bea11",
+    "title": "Suspicious PowerShell execution on WIN-FS02",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-10T19:38:49.251Z",
+    "assignee": null
+  },
+  {
+    "id": "a608d1cd-a0db-4d9e-86cf-7d0d0110553c",
+    "title": "Suspicious PowerShell execution on WIN-ENG08",
+    "severity": "Critical",
+    "status": "Resolved",
+    "source": "Manual",
+    "createdAt": "2026-06-09T16:13:34.858Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "6492afda-ed70-4743-acad-79efe1aa23e7",
+    "title": "Malware detected: Trojan.Generic on LIN-API07",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-09T16:15:37.990Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "860f828e-98da-44d0-85cd-34cfffcbaec5",
+    "title": "Suspicious PowerShell execution on WIN-HR06",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Okta",
+    "createdAt": "2026-06-13T07:59:02.457Z",
+    "assignee": null
+  },
+  {
+    "id": "5073ed8e-98db-4f05-9e3f-06aec7c583ee",
+    "title": "Command and control communication from WIN-ENG08",
+    "severity": "High",
+    "status": "False Positive",
+    "source": "Defender",
+    "createdAt": "2026-06-11T13:14:34.337Z",
+    "assignee": null
+  },
+  {
+    "id": "5b525b1e-032e-414a-9ea7-25842361995a",
+    "title": "Suspicious PowerShell execution on LIN-WEB03",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T12:58:00.036Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "9b4c3c6b-1110-4154-805a-65a75be9d3d0",
+    "title": "Ransomware behavior detected on WIN-DC01",
+    "severity": "High",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-14T07:30:17.400Z",
+    "assignee": null
+  },
+  {
+    "id": "28770d84-fe10-4d55-abb5-dd06195867c1",
+    "title": "Privilege escalation attempt on MAC-DEV05",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Manual",
+    "createdAt": "2026-06-15T03:36:10.337Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "7bab8d49-339e-4055-8714-301c1e219d81",
+    "title": "Command and control communication from WIN-FS02",
+    "severity": "High",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-12T23:37:45.831Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "6de48312-4c28-473e-a780-21cb91fe7a18",
+    "title": "Data exfiltration alert: large upload from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-13T12:50:49.390Z",
+    "assignee": null
+  },
+  {
+    "id": "e4ff765f-91c2-4855-a840-bd8dcf542946",
+    "title": "Privilege escalation attempt on WIN-ENG08",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Sentinel",
+    "createdAt": "2026-06-12T00:59:48.373Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "303b2d99-a17b-42d8-823c-210bda7b2bbe",
+    "title": "Unauthorized cloud API access from WIN-FS02",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-16T00:55:35.033Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "5a3b8ea3-47f5-4efb-ad27-5742e9159042",
+    "title": "Ransomware behavior detected on LIN-DB04",
+    "severity": "Critical",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-10T23:25:22.042Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "30943204-7489-487a-ad46-2c85a1b650e2",
+    "title": "Multiple failed login attempts from 181.21.183.80 on MAC-DEV05",
+    "severity": "High",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-13T00:51:33.889Z",
+    "assignee": null
+  },
+  {
+    "id": "494ad053-a55f-4b85-b674-d87efbc3ac8b",
+    "title": "Unusual outbound traffic to 57.102.211.199 from LIN-API07",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-10T08:59:00.667Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "642b32d3-da13-4101-b5dc-09507f22b0aa",
+    "title": "Suspicious scheduled task created on WIN-ENG08",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T08:14:43.270Z",
+    "assignee": null
+  },
+  {
+    "id": "80c25855-173c-4e77-abe2-132dd623552a",
+    "title": "Malware detected: Trojan.Generic on WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-11T01:51:56.394Z",
+    "assignee": null
+  },
+  {
+    "id": "d5040c08-8308-4126-a174-690cffb45435",
+    "title": "Malware detected: Trojan.Generic on WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-12T06:47:56.433Z",
+    "assignee": null
+  },
+  {
+    "id": "e53ae15e-3cfc-4a9c-8b97-638f44b1e079",
+    "title": "Credential dumping activity on WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-11T19:16:08.491Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "f68f769c-cedd-4b8d-9794-2500a059bf6c",
+    "title": "Unauthorized cloud API access from WIN-ENG08",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Okta",
+    "createdAt": "2026-06-13T20:39:18.229Z",
+    "assignee": null
+  },
+  {
+    "id": "c1d80e94-6bf2-4f5a-977b-c26b9ce72cca",
+    "title": "Credential dumping activity on MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-10T05:31:13.027Z",
+    "assignee": null
+  },
+  {
+    "id": "61eb53e5-95b2-4071-86db-660de2f23322",
+    "title": "Malware detected: Trojan.Generic on LIN-WEB03",
+    "severity": "Critical",
+    "status": "False Positive",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-16T01:02:34.275Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "66f39fa3-15f8-4f31-8da7-cbde93b2e7c9",
+    "title": "Command and control communication from WIN-FS02",
+    "severity": "Critical",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T03:59:35.362Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "6734a818-bfe1-4630-9639-b676ae816fa0",
+    "title": "Data exfiltration alert: large upload from LIN-API07",
+    "severity": "Critical",
+    "status": "False Positive",
+    "source": "Manual",
+    "createdAt": "2026-06-14T19:33:08.767Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "05d2c39e-593b-4b5a-be39-322da7462747",
+    "title": "Suspicious scheduled task created on LIN-DB04",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T16:08:27.213Z",
+    "assignee": null
+  },
+  {
+    "id": "c5c07b30-09f7-492a-afc9-d72be5b4573f",
+    "title": "Command and control communication from WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-13T18:51:34.036Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "d79942a7-9235-40c6-b2bb-d9950af3987a",
+    "title": "Lateral movement detected from MAC-DEV05",
+    "severity": "Low",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-14T17:42:57.019Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "5ad1c8f9-8c1f-4cca-8150-4c80c3425e5c",
+    "title": "Suspicious registry modification on LIN-DB04",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Okta",
+    "createdAt": "2026-06-15T06:47:49.049Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "303bc890-4a0a-49d1-a309-d81d3ecf4e3d",
+    "title": "Privilege escalation attempt on WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-13T20:59:57.226Z",
+    "assignee": null
+  },
+  {
+    "id": "a41ac2b3-6876-46c5-8f17-1a147fc29058",
+    "title": "Data exfiltration alert: large upload from LIN-DB04",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-11T01:07:32.359Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "b5c0945b-3369-42eb-9723-5ebc3f420313",
+    "title": "Ransomware behavior detected on WIN-HR06",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-13T02:59:29.752Z",
+    "assignee": null
+  },
+  {
+    "id": "ff1e8873-1bd5-4eae-8d83-080a5e929881",
+    "title": "Unusual outbound traffic to 43.191.109.55 from LIN-API07",
+    "severity": "High",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-15T22:41:21.054Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "c23700a8-d8ca-48b8-8b2b-7c58667a9160",
+    "title": "Phishing email link clicked by user on MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-12T09:57:53.068Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "b7e61d9d-7fec-4c7e-ac31-c3f4006d3f25",
+    "title": "Command and control communication from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T12:32:58.179Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "d53a33d4-8de0-4e64-8d8d-d3a8ea46b2e7",
+    "title": "Malware detected: Trojan.Generic on MAC-DEV05",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-09T18:14:13.940Z",
+    "assignee": null
+  },
+  {
+    "id": "b1072bbd-273e-4d31-95e9-6d83f7bd60a9",
+    "title": "Suspicious registry modification on WIN-DC01",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Sentinel",
+    "createdAt": "2026-06-14T02:54:29.569Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "f496c5db-39b5-4809-b20f-f7e2e476946b",
+    "title": "Lateral movement detected from LIN-WEB03",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T11:43:09.654Z",
+    "assignee": null
+  },
+  {
+    "id": "03faf773-259c-4771-aafa-373150bddf54",
+    "title": "Brute force attack detected against WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-12T16:20:05.342Z",
+    "assignee": null
+  },
+  {
+    "id": "7934005c-cf65-4282-a9e4-6a8c456c47a1",
+    "title": "Malware detected: Trojan.Generic on LIN-DB04",
+    "severity": "Low",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-14T01:53:57.709Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "931562b3-a5b6-438c-98cc-da104d793d2a",
+    "title": "Ransomware behavior detected on LIN-WEB03",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Splunk",
+    "createdAt": "2026-06-09T23:09:33.053Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "7c6fbe4a-f6dc-4356-bb82-390c1a4eb4b3",
+    "title": "Credential dumping activity on LIN-DB04",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T21:46:56.563Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "da8212ab-4ea9-4e3e-8da2-705ffd4b3db9",
+    "title": "Ransomware behavior detected on LIN-DB04",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-15T04:57:02.493Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "58f0f50b-e45e-4492-ac1d-0fb61b127575",
+    "title": "Lateral movement detected from MAC-DEV05",
+    "severity": "Critical",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-12T16:45:26.786Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "54965c82-5551-4218-9c95-ad193ffa4624",
+    "title": "Brute force attack detected against LIN-DB04",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-15T14:29:17.155Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "6ae666d8-7245-4691-bf32-c42af07fb3ee",
+    "title": "Multiple failed login attempts from 159.214.175.183 on LIN-WEB03",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-14T19:59:14.304Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "370c6781-e024-4e13-9d67-58c0da286d64",
+    "title": "Phishing email link clicked by user on WIN-DC01",
+    "severity": "High",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-12T04:08:00.878Z",
+    "assignee": null
+  },
+  {
+    "id": "c2694dab-f2a9-4c4b-aeab-8b9a08ea0acc",
+    "title": "Unauthorized cloud API access from LIN-WEB03",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-09T17:05:07.737Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "cb612b44-6db5-491b-8033-2f1dda7f33bb",
+    "title": "Brute force attack detected against WIN-ENG08",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-12T00:20:12.023Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "e2b74527-8ab8-4625-9dd1-59ef8439eb18",
+    "title": "Data exfiltration alert: large upload from MAC-DEV05",
+    "severity": "Low",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-13T18:02:16.358Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "ee93da1e-b1f1-482d-98df-fd9de21d2ece",
+    "title": "Phishing email link clicked by user on LIN-DB04",
+    "severity": "Low",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T07:31:18.638Z",
+    "assignee": null
+  },
+  {
+    "id": "9153262a-0725-41e5-aaf5-194e84e331c4",
+    "title": "Multiple failed login attempts from 115.51.105.158 on LIN-WEB03",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Defender",
+    "createdAt": "2026-06-10T07:51:25.478Z",
+    "assignee": null
+  },
+  {
+    "id": "8135d9a3-27df-4475-8b2e-9e93e815464c",
+    "title": "Command and control communication from WIN-DC01",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-15T09:42:50.712Z",
+    "assignee": null
+  },
+  {
+    "id": "8b45d53e-34cf-40dd-84e2-f6ff5a51ff44",
+    "title": "Command and control communication from LIN-API07",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-12T08:05:24.767Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "a627d467-ac6a-44dc-aa38-898e406aef25",
+    "title": "Command and control communication from LIN-WEB03",
+    "severity": "Medium",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T09:14:16.326Z",
+    "assignee": null
+  },
+  {
+    "id": "9dcfe3c6-7b4c-464f-b5f3-57e05673a481",
+    "title": "Privilege escalation attempt on WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-10T07:45:21.267Z",
+    "assignee": null
+  },
+  {
+    "id": "5f8b9cb1-1e1f-4bf3-a852-7cef82f34ed1",
+    "title": "Unusual outbound traffic to 7.27.28.199 from WIN-HR06",
+    "severity": "High",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-15T14:46:13.434Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "91c655ae-253d-4dd4-9e60-8fdba34e8fbb",
+    "title": "Data exfiltration alert: large upload from WIN-HR06",
+    "severity": "Low",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-10T17:30:49.763Z",
+    "assignee": null
+  },
+  {
+    "id": "8afdd050-f86e-4ba3-aa90-396c18e502ba",
+    "title": "Ransomware behavior detected on LIN-API07",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-14T21:20:05.459Z",
+    "assignee": null
+  },
+  {
+    "id": "8a669239-2fff-43c8-99ce-01de044cae18",
+    "title": "Multiple failed login attempts from 192.219.220.36 on LIN-API07",
+    "severity": "High",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-15T04:05:37.811Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "33a1d7de-98a1-4ab1-98f7-49dfcac8cd00",
+    "title": "Phishing email link clicked by user on WIN-HR06",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-11T06:21:42.478Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "ea8a551f-ce82-425a-8e50-49f4650cddca",
+    "title": "Unauthorized cloud API access from WIN-ENG08",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-16T02:05:32.205Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "30c0d225-4470-4c45-89c6-e54dcde6f893",
+    "title": "Ransomware behavior detected on LIN-WEB03",
+    "severity": "Critical",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-13T16:14:23.733Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "fdf3488d-1f1d-4cfa-8ec7-3ff6d990e04c",
+    "title": "Suspicious scheduled task created on MAC-DEV05",
+    "severity": "High",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-15T10:52:42.956Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "50b601ee-84f1-41ef-94b1-5c58ef234999",
+    "title": "Suspicious scheduled task created on WIN-FS02",
+    "severity": "High",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-12T22:51:17.189Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "5d941012-b13f-41a8-ba2a-4c78642350f6",
+    "title": "Unusual outbound traffic to 179.106.68.44 from LIN-WEB03",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-10T05:17:59.443Z",
+    "assignee": null
+  },
+  {
+    "id": "1edb35ac-5743-450a-846c-54a68d833117",
+    "title": "Data exfiltration alert: large upload from WIN-DC01",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-14T11:27:50.928Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "5108af18-e267-4065-b209-f0f9874f6cd9",
+    "title": "Command and control communication from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-12T07:21:35.298Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "505aecaf-904b-4cbf-8956-3b3767e2a70f",
+    "title": "Brute force attack detected against LIN-DB04",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-14T13:46:39.217Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "aa70cca4-7174-48b1-9136-5edb01cff0af",
+    "title": "Suspicious scheduled task created on WIN-DC01",
+    "severity": "Critical",
+    "status": "In Progress",
+    "source": "Okta",
+    "createdAt": "2026-06-11T10:02:55.601Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "15d484bd-775e-482f-be92-787612c08799",
+    "title": "Suspicious registry modification on WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-13T16:57:36.538Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "e9ecc8bc-f6c4-4537-812a-80f5d3cf9eca",
+    "title": "Multiple failed login attempts from 145.169.8.120 on LIN-API07",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-15T20:20:31.353Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "02c2236b-7024-452f-81cc-46fba3eb5f1e",
+    "title": "Malware detected: Trojan.Generic on WIN-FS02",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-10T18:57:38.170Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "79c62c90-4978-4933-ae6e-d8a4661d00a2",
+    "title": "Ransomware behavior detected on WIN-DC01",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-14T00:21:39.331Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "f8e63d9b-6db3-46d2-a11f-4dbd1e620b68",
+    "title": "Phishing email link clicked by user on WIN-DC01",
+    "severity": "Low",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-10T19:33:19.214Z",
+    "assignee": null
+  },
+  {
+    "id": "835f25e1-9d15-4b88-9282-9edea0e068ec",
+    "title": "Unusual outbound traffic to 81.70.99.226 from WIN-DC01",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Defender",
+    "createdAt": "2026-06-10T02:49:27.797Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "521beedc-143e-464e-a554-580e4e0a1e32",
+    "title": "Command and control communication from WIN-HR06",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-10T03:32:15.840Z",
+    "assignee": null
+  },
+  {
+    "id": "e2ac94e0-572a-452c-bcc8-b9a70da636d4",
+    "title": "Malware detected: Trojan.Generic on LIN-WEB03",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-12T05:38:54.047Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "9984c838-2768-4582-9232-bcc5ff01b417",
+    "title": "Credential dumping activity on WIN-ENG08",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-14T13:51:27.593Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "7feada4f-66ba-44a5-9b4f-896cbe03760e",
+    "title": "Suspicious registry modification on MAC-DEV05",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-13T05:50:49.057Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "ed6a528c-1169-43ab-a36e-090530eea862",
+    "title": "Multiple failed login attempts from 99.96.10.96 on MAC-DEV05",
+    "severity": "Low",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-09T10:53:56.009Z",
+    "assignee": null
+  },
+  {
+    "id": "b0cc0e76-29ce-42b2-9de6-c5270139ccdb",
+    "title": "Brute force attack detected against WIN-HR06",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-13T11:26:27.941Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "36645659-28b7-4f58-bf77-0521e4d5fb2a",
+    "title": "Unusual outbound traffic to 215.234.85.238 from WIN-FS02",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-09T12:31:36.341Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "1d336edf-d03c-46e7-a530-ccda9838a0cd",
+    "title": "Unusual outbound traffic to 145.42.37.144 from MAC-DEV05",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-15T14:36:01.050Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "93cf3c44-abcf-4b87-966d-56f2470e3727",
+    "title": "Command and control communication from WIN-DC01",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T19:55:19.051Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "29fffdb3-3bc0-484d-8ab7-59c742ac8afb",
+    "title": "Malware detected: Trojan.Generic on WIN-FS02",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Okta",
+    "createdAt": "2026-06-12T11:29:49.063Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "6fdf0174-bb6e-4cb4-9b5f-3e421c405593",
+    "title": "Unauthorized cloud API access from WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-09T09:06:35.065Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "745a4c62-e41c-47a9-977f-564d7fe2c1b0",
+    "title": "Unauthorized cloud API access from LIN-API07",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-09T19:45:05.155Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "44e1d286-62a6-421e-9739-11d43edf7194",
+    "title": "Suspicious PowerShell execution on WIN-HR06",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-15T10:46:31.641Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "116e8edc-f0d0-4e34-9f5b-1f3a84efd9f3",
+    "title": "Ransomware behavior detected on LIN-DB04",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-15T08:46:47.060Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "9af010f4-904a-44ac-85bb-186343b87f8d",
+    "title": "Suspicious PowerShell execution on WIN-ENG08",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-15T19:43:35.635Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "3e0fd1f7-e844-49f4-8193-360e9ec7398a",
+    "title": "Brute force attack detected against MAC-DEV05",
+    "severity": "Low",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-11T22:02:10.371Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "d5b160e1-a415-45e3-ad07-b2378b292e81",
+    "title": "Suspicious registry modification on WIN-DC01",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-11T21:41:04.492Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "dc09003e-ce52-41d6-be0d-5539860a3eba",
+    "title": "Brute force attack detected against WIN-DC01",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-12T18:31:36.472Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "e011b03b-d6f2-4e29-a670-f8c22c062d1f",
+    "title": "Unusual outbound traffic to 164.190.85.225 from MAC-DEV05",
+    "severity": "Low",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-15T21:15:55.775Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "0dcd8c2c-1c1b-4aa5-a6ce-81a3070eb014",
+    "title": "Ransomware behavior detected on LIN-DB04",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-11T14:45:51.686Z",
+    "assignee": null
+  },
+  {
+    "id": "e89b0215-a05a-4824-ad72-f81ac182bc2f",
+    "title": "Lateral movement detected from WIN-ENG08",
+    "severity": "Low",
+    "status": "False Positive",
+    "source": "Sentinel",
+    "createdAt": "2026-06-12T21:14:51.094Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "f8e5ef3a-e5fc-4e3e-9cda-aa8d71ba075e",
+    "title": "Lateral movement detected from LIN-DB04",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-14T01:42:55.331Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "dd2d8f69-3841-4203-a3cd-03bb9f5e5acd",
+    "title": "Suspicious registry modification on WIN-DC01",
+    "severity": "Low",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-11T12:35:34.801Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "8679d986-9e6b-4604-abea-f1cb377213cb",
+    "title": "Unauthorized cloud API access from WIN-ENG08",
+    "severity": "Critical",
+    "status": "Resolved",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-15T13:54:52.096Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "6cd1977c-4b49-4f1f-988e-4618bf9f3ea5",
+    "title": "Lateral movement detected from WIN-HR06",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-13T13:24:44.390Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "1450f15f-6090-4e70-bf73-8a088ba79964",
+    "title": "Credential dumping activity on MAC-DEV05",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-13T17:21:12.872Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "6f6dc0a4-89d0-4d83-b5b8-3a5090315cdb",
+    "title": "Data exfiltration alert: large upload from LIN-WEB03",
+    "severity": "High",
+    "status": "False Positive",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-12T07:51:53.128Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "14f725f6-f893-4568-ba13-5b35a589b97e",
+    "title": "Ransomware behavior detected on WIN-ENG08",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Okta",
+    "createdAt": "2026-06-12T20:28:57.860Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "94368a5f-3cde-4a19-ad5a-c85283cfe01c",
+    "title": "Suspicious scheduled task created on MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-14T17:20:49.184Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "22108885-98d1-44a4-8be4-75c22ae59c7a",
+    "title": "Suspicious scheduled task created on WIN-HR06",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-12T07:13:17.946Z",
+    "assignee": null
+  },
+  {
+    "id": "ac1e9cc2-d84c-49ab-9730-71d1a359bba8",
+    "title": "Credential dumping activity on WIN-HR06",
+    "severity": "Medium",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-12T22:27:55.713Z",
+    "assignee": null
+  },
+  {
+    "id": "d35e1545-9fb4-4e97-b469-a8b7169ac21e",
+    "title": "Brute force attack detected against LIN-DB04",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-12T23:50:12.800Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "c70ec01e-1198-4014-b637-7cef6127cfd5",
+    "title": "Credential dumping activity on LIN-WEB03",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-09T20:30:25.583Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "58c47823-4787-4de8-a570-50a98b91f994",
+    "title": "Ransomware behavior detected on LIN-API07",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-14T15:26:46.250Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "79115b5b-a6fd-4db3-9be2-1ddc66c8227f",
+    "title": "Credential dumping activity on LIN-DB04",
+    "severity": "Critical",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-13T17:23:53.632Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "f6c41b60-d86b-477b-b097-75a1cf197ed3",
+    "title": "Command and control communication from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-13T22:27:40.865Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "1fded7cc-19eb-47d8-8eea-5ad0ccf30d33",
+    "title": "Command and control communication from WIN-HR06",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-14T13:07:20.272Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "2221bb53-642d-4056-89ce-107e24e22e68",
+    "title": "Phishing email link clicked by user on LIN-DB04",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Defender",
+    "createdAt": "2026-06-09T18:55:48.443Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "caa94ef6-c9f2-42c5-80ed-155563f32a1b",
+    "title": "Unusual outbound traffic to 65.114.203.250 from LIN-API07",
+    "severity": "Low",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-11T00:57:27.863Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "82214fdb-4dd8-4f6c-aa27-c9ff64d50991",
+    "title": "Command and control communication from WIN-ENG08",
+    "severity": "Critical",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T14:52:16.823Z",
+    "assignee": null
+  },
+  {
+    "id": "8ce79745-77ae-46b1-ae69-5911c63d6c05",
+    "title": "Ransomware behavior detected on LIN-API07",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-11T10:29:05.597Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "6b9e2d8a-be19-43de-ac5c-bcf1612f3321",
+    "title": "Data exfiltration alert: large upload from LIN-WEB03",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-14T02:35:37.769Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "27b1083f-2515-4197-8a30-ef32e85823a9",
+    "title": "Unauthorized cloud API access from WIN-ENG08",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-15T09:08:20.377Z",
+    "assignee": null
+  },
+  {
+    "id": "b398a136-5fec-450d-b40a-99da67fef477",
+    "title": "Lateral movement detected from WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-11T01:14:38.317Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "915fefcb-4324-4eec-a7ee-8d9b4a58bfd9",
+    "title": "Phishing email link clicked by user on LIN-WEB03",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Okta",
+    "createdAt": "2026-06-13T15:14:31.564Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "0f027315-5c60-4560-86db-ff54b1ddb636",
+    "title": "Privilege escalation attempt on LIN-WEB03",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-11T10:19:31.812Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "568b5b9c-f5b6-4ea8-a029-0377d486cc63",
+    "title": "Malware detected: Trojan.Generic on MAC-DEV05",
+    "severity": "High",
+    "status": "False Positive",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T07:23:39.683Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "e7811cb5-1aec-4691-88cc-a97123e07a59",
+    "title": "Command and control communication from MAC-DEV05",
+    "severity": "High",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-12T16:32:57.917Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "56e273a0-7a67-4408-a6a9-a4f1dc00d627",
+    "title": "Suspicious PowerShell execution on LIN-DB04",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-13T10:02:33.700Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "327ec426-0bbc-4e0e-9e13-76a3aa657edd",
+    "title": "Data exfiltration alert: large upload from WIN-HR06",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-13T09:40:07.845Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "b27a4a27-bfeb-4a4b-9e5e-7eb3762924d7",
+    "title": "Suspicious PowerShell execution on WIN-FS02",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-12T14:28:07.296Z",
+    "assignee": null
+  },
+  {
+    "id": "54a0d480-19c6-4a06-83a7-fe8909cd9282",
+    "title": "Lateral movement detected from MAC-DEV05",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-15T07:38:29.997Z",
+    "assignee": null
+  },
+  {
+    "id": "399b8ad5-25e9-4b71-b76c-d763455d132e",
+    "title": "Multiple failed login attempts from 199.22.91.89 on WIN-HR06",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-12T23:45:40.963Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "8b07f026-12fc-4195-a2c9-7c8db124fb6f",
+    "title": "Credential dumping activity on WIN-DC01",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T04:55:17.345Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "6ce5af04-e0d8-4a4c-9ad2-3381e8213f18",
+    "title": "Unusual outbound traffic to 181.67.18.241 from WIN-FS02",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-12T06:32:12.771Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "f9fb52f6-f810-4793-a12d-b6999dd72dab",
+    "title": "Data exfiltration alert: large upload from WIN-ENG08",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-12T11:00:49.126Z",
+    "assignee": null
+  },
+  {
+    "id": "66d28f9a-a9ac-47a7-acc9-7b46a8825dd9",
+    "title": "Lateral movement detected from LIN-API07",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-10T20:01:24.658Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "f4ceb879-4708-4da5-a8a4-87fb23b748f1",
+    "title": "Credential dumping activity on MAC-DEV05",
+    "severity": "Critical",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-10T14:05:01.095Z",
+    "assignee": null
+  },
+  {
+    "id": "2c67fae7-898c-4888-8ed7-a50e785309dd",
+    "title": "Multiple failed login attempts from 101.76.149.157 on LIN-WEB03",
+    "severity": "Critical",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-12T09:45:47.221Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "7e7c0501-a3ee-4247-910e-1329b6c95cf7",
+    "title": "Credential dumping activity on LIN-DB04",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-10T02:00:49.961Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "992c313e-d8d4-4dbf-8a0a-bcef6cd06ff6",
+    "title": "Suspicious PowerShell execution on LIN-DB04",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-10T10:00:10.451Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "dca11d75-8465-497e-ab57-1e1d9b65ba77",
+    "title": "Unusual outbound traffic to 72.70.191.230 from WIN-FS02",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-09T13:55:55.952Z",
+    "assignee": null
+  },
+  {
+    "id": "876b73b0-214d-4771-ac7f-e7e38ad3e364",
+    "title": "Lateral movement detected from WIN-ENG08",
+    "severity": "Low",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-10T02:57:53.398Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "35ddb6b6-9151-48c9-ac45-ac9edc0fd862",
+    "title": "Malware detected: Trojan.Generic on MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Sentinel",
+    "createdAt": "2026-06-09T11:48:37.388Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "801b5714-9169-452b-a682-5188cbd2b362",
+    "title": "Command and control communication from WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-15T03:11:35.482Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "8392d27b-642f-4e6d-962b-bd93609a46e5",
+    "title": "Privilege escalation attempt on WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T16:45:15.608Z",
+    "assignee": null
+  },
+  {
+    "id": "99e8bdf6-3fcd-4485-9802-5ec54280f204",
+    "title": "Multiple failed login attempts from 69.82.203.78 on WIN-FS02",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-10T03:14:36.139Z",
+    "assignee": null
+  },
+  {
+    "id": "7435054f-cad5-4cf5-9b31-0ab0a7c9346c",
+    "title": "Credential dumping activity on MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T04:11:27.211Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "d7939077-3804-44bd-b1eb-3cdd51b39f35",
+    "title": "Suspicious registry modification on MAC-DEV05",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-16T01:10:50.439Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "7314081b-7a9e-47d4-be07-2293ed05a8da",
+    "title": "Data exfiltration alert: large upload from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-14T09:22:03.987Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "6e8cde6d-2f0d-4f58-b1cd-416cc62082c1",
+    "title": "Credential dumping activity on LIN-DB04",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Okta",
+    "createdAt": "2026-06-15T14:50:46.307Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "a7406477-fa48-4b4c-9308-3fa33ecb934c",
+    "title": "Privilege escalation attempt on MAC-DEV05",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Splunk",
+    "createdAt": "2026-06-12T18:37:56.836Z",
+    "assignee": null
+  },
+  {
+    "id": "8fe3180b-ed88-4031-95c9-a68de6ed7bb8",
+    "title": "Malware detected: Trojan.Generic on MAC-DEV05",
+    "severity": "Low",
+    "status": "False Positive",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T07:23:37.527Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "a4124c30-77ce-45b5-8421-d7d363a81216",
+    "title": "Multiple failed login attempts from 207.240.99.211 on WIN-HR06",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-11T17:11:55.123Z",
+    "assignee": null
+  },
+  {
+    "id": "71d69170-4bab-4956-85d0-ea5c8b254b95",
+    "title": "Multiple failed login attempts from 73.147.76.217 on LIN-API07",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Splunk",
+    "createdAt": "2026-06-12T03:13:20.830Z",
+    "assignee": null
+  },
+  {
+    "id": "ba27edab-dbab-46d4-89e4-e68d681e24c5",
+    "title": "Privilege escalation attempt on WIN-DC01",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "Sentinel",
+    "createdAt": "2026-06-09T23:25:09.234Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "9b5c66e0-51da-4278-8d5d-4834b2e1174c",
+    "title": "Suspicious registry modification on LIN-DB04",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-16T04:57:57.788Z",
+    "assignee": null
+  },
+  {
+    "id": "4a117308-299a-4a98-9eab-9c56e6b6c9b1",
+    "title": "Suspicious PowerShell execution on WIN-HR06",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T16:47:34.589Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "99f4a375-bcf7-44d8-98f8-dc4110d6873d",
+    "title": "Malware detected: Trojan.Generic on MAC-DEV05",
+    "severity": "High",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-14T23:43:23.027Z",
+    "assignee": null
+  },
+  {
+    "id": "a7ab9e29-2188-4bd3-9b89-347b65347a81",
+    "title": "Credential dumping activity on LIN-WEB03",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Defender",
+    "createdAt": "2026-06-15T10:09:01.730Z",
+    "assignee": null
+  },
+  {
+    "id": "cffa80b6-2b4b-40dd-91ed-20cedce407dd",
+    "title": "Suspicious scheduled task created on MAC-DEV05",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-10T18:10:08.211Z",
+    "assignee": null
+  },
+  {
+    "id": "8e1cf1f2-be7d-40e1-b4de-0a8828973a30",
+    "title": "Suspicious scheduled task created on WIN-FS02",
+    "severity": "Medium",
+    "status": "New",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-11T23:26:25.115Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "6c328896-2a46-46e1-a6a8-b8455e36827f",
+    "title": "Lateral movement detected from WIN-HR06",
+    "severity": "Critical",
+    "status": "False Positive",
+    "source": "Manual",
+    "createdAt": "2026-06-11T16:03:53.819Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "5707539f-5e13-4bb2-9951-6c252f721194",
+    "title": "Multiple failed login attempts from 58.81.146.23 on LIN-API07",
+    "severity": "Critical",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-14T16:58:54.981Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "23752d55-d3dc-4e9b-a083-5c02e55d16f9",
+    "title": "Unusual outbound traffic to 94.101.24.140 from WIN-DC01",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-10T11:00:54.631Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "c48473a0-8591-453f-801e-918a1fc730be",
+    "title": "Command and control communication from WIN-DC01",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-12T08:27:50.596Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "c2900e8e-6782-423a-9bb7-98f7da800c44",
+    "title": "Ransomware behavior detected on MAC-DEV05",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Defender",
+    "createdAt": "2026-06-11T14:13:42.570Z",
+    "assignee": null
+  },
+  {
+    "id": "359c7d55-b463-42c8-9e1a-9ff9e775aca8",
+    "title": "Suspicious registry modification on WIN-FS02",
+    "severity": "High",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-12T13:13:43.082Z",
+    "assignee": null
+  },
+  {
+    "id": "8353c3e9-10b6-4355-a4d9-030dadfd1f0b",
+    "title": "Brute force attack detected against MAC-DEV05",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Splunk",
+    "createdAt": "2026-06-10T02:53:12.052Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "6d759170-0659-4e75-8229-c62bc13c5fa6",
+    "title": "Lateral movement detected from WIN-ENG08",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Manual",
+    "createdAt": "2026-06-12T12:41:23.571Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "86ddd422-5963-4363-b391-9aeae99eda34",
+    "title": "Privilege escalation attempt on WIN-DC01",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Okta",
+    "createdAt": "2026-06-14T08:54:59.444Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "4e2a9f66-fffd-4e2f-8ca6-5ac0b82c81cf",
+    "title": "Data exfiltration alert: large upload from LIN-WEB03",
+    "severity": "High",
+    "status": "New",
+    "source": "Defender",
+    "createdAt": "2026-06-09T10:02:55.735Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "d5bab81c-7de4-42d1-8f3d-b02d4d546c41",
+    "title": "Multiple failed login attempts from 177.32.231.128 on WIN-ENG08",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-13T01:21:36.270Z",
+    "assignee": null
+  },
+  {
+    "id": "c5239d4c-e46f-4377-9beb-9c0d3bcbe20b",
+    "title": "Credential dumping activity on LIN-API07",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T08:03:02.874Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "d0d02be7-97ab-4b1b-af3b-7f9f038f2d50",
+    "title": "Privilege escalation attempt on LIN-API07",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-11T14:57:16.185Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "d7a7646a-9e98-44a5-95f6-0e9ad0c9c770",
+    "title": "Ransomware behavior detected on WIN-DC01",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-13T11:00:46.049Z",
+    "assignee": "Alice Chen"
+  },
+  {
+    "id": "29448732-5c40-4ae2-aa26-7b71400bd3bf",
+    "title": "Unusual outbound traffic to 213.200.88.122 from WIN-HR06",
+    "severity": "Medium",
+    "status": "Resolved",
+    "source": "Manual",
+    "createdAt": "2026-06-11T20:11:37.068Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "77241f86-4b3c-44b8-9081-4b1180dff6e3",
+    "title": "Unauthorized cloud API access from WIN-DC01",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-12T20:04:59.950Z",
+    "assignee": null
+  },
+  {
+    "id": "269cb4f7-e444-4905-a899-9b8222a063c7",
+    "title": "Credential dumping activity on LIN-API07",
+    "severity": "Low",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-15T02:19:05.593Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "e7e8ca07-42f7-4f82-9f01-9dd12e0099f1",
+    "title": "Command and control communication from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-11T10:01:44.663Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "55c7f079-bf9e-48d1-865d-a9b2ea58be39",
+    "title": "Multiple failed login attempts from 162.83.230.167 on WIN-DC01",
+    "severity": "Low",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-11T09:12:06.744Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "622fd5d6-653e-467c-8011-00011c1e3bd7",
+    "title": "Privilege escalation attempt on WIN-DC01",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "Splunk",
+    "createdAt": "2026-06-11T19:38:17.972Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "9e0f4945-9cc9-427b-90fa-8b9b33b937de",
+    "title": "Suspicious scheduled task created on LIN-API07",
+    "severity": "Low",
+    "status": "New",
+    "source": "Manual",
+    "createdAt": "2026-06-15T15:11:26.237Z",
+    "assignee": null
+  },
+  {
+    "id": "30c5f4e4-8915-404f-953a-dc3f9e1bc46c",
+    "title": "Multiple failed login attempts from 63.214.62.93 on WIN-HR06",
+    "severity": "Medium",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-15T04:40:34.710Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "f996db44-f8b6-42bf-94fc-cca93db83854",
+    "title": "Multiple failed login attempts from 98.200.3.175 on WIN-HR06",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Manual",
+    "createdAt": "2026-06-14T16:05:39.486Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "61f64138-3548-40e0-9d0a-d9652865e61d",
+    "title": "Malware detected: Trojan.Generic on WIN-DC01",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Okta",
+    "createdAt": "2026-06-13T20:00:30.327Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "e300a662-5d18-44fd-abc0-b3d67357e09c",
+    "title": "Multiple failed login attempts from 137.132.39.42 on LIN-API07",
+    "severity": "High",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-14T18:14:15.927Z",
+    "assignee": "Grace Patel"
+  },
+  {
+    "id": "5adfc6a6-edd7-495c-ab00-92f60f42fd5d",
+    "title": "Phishing email link clicked by user on WIN-HR06",
+    "severity": "Low",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-14T12:53:59.097Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "2ce3a826-7fc0-4a6a-b5cb-7fc030fedd93",
+    "title": "Data exfiltration alert: large upload from WIN-DC01",
+    "severity": "Critical",
+    "status": "New",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-13T18:54:19.282Z",
+    "assignee": "Frank O'Brien"
+  },
+  {
+    "id": "b85a180f-a8ca-43ed-8425-8fb161d71dc2",
+    "title": "Unauthorized cloud API access from LIN-WEB03",
+    "severity": "Medium",
+    "status": "False Positive",
+    "source": "Defender",
+    "createdAt": "2026-06-10T06:35:50.025Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "05f76d2e-898b-4c43-acf9-cc40b17c79c1",
+    "title": "Command and control communication from LIN-API07",
+    "severity": "High",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-13T20:10:38.373Z",
+    "assignee": null
+  },
+  {
+    "id": "ec4b4a4b-6fa3-4eb1-9968-63a72d681bb2",
+    "title": "Data exfiltration alert: large upload from LIN-API07",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-14T15:42:45.244Z",
+    "assignee": null
+  },
+  {
+    "id": "795b9cde-8b15-4f44-a91a-a145abf9c535",
+    "title": "Lateral movement detected from MAC-DEV05",
+    "severity": "Medium",
+    "status": "New",
+    "source": "Palo Alto",
+    "createdAt": "2026-06-14T08:13:19.134Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "8df89366-d89a-4720-a6ec-19ff8fcbd19b",
+    "title": "Suspicious scheduled task created on LIN-API07",
+    "severity": "Critical",
+    "status": "New",
+    "source": "Splunk",
+    "createdAt": "2026-06-11T23:28:14.833Z",
+    "assignee": "Carol Williams"
+  },
+  {
+    "id": "3f1fa64d-f4a4-4f49-b59f-21fb4ff86fd1",
+    "title": "Brute force attack detected against WIN-HR06",
+    "severity": "High",
+    "status": "New",
+    "source": "Okta",
+    "createdAt": "2026-06-15T13:09:44.749Z",
+    "assignee": "Henry Liu"
+  },
+  {
+    "id": "d057c6ea-0499-4033-98de-847432705077",
+    "title": "Ransomware behavior detected on LIN-API07",
+    "severity": "Critical",
+    "status": "In Progress",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-12T14:10:49.453Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "43b3477a-130a-4fa0-83de-ad7b1fa20270",
+    "title": "Suspicious PowerShell execution on MAC-DEV05",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-14T15:41:58.416Z",
+    "assignee": "Eva Thompson"
+  },
+  {
+    "id": "9d3c2f28-6138-4399-9d38-58097a75dfe9",
+    "title": "Malware detected: Trojan.Generic on LIN-WEB03",
+    "severity": "High",
+    "status": "False Positive",
+    "source": "Sentinel",
+    "createdAt": "2026-06-09T09:25:48.229Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "29cf1659-4730-4d06-922d-4a028d5d044f",
+    "title": "Malware detected: Trojan.Generic on LIN-WEB03",
+    "severity": "High",
+    "status": "In Progress",
+    "source": "Okta",
+    "createdAt": "2026-06-12T10:33:42.698Z",
+    "assignee": null
+  },
+  {
+    "id": "4a852f41-8978-461b-afed-afa6d707f262",
+    "title": "Multiple failed login attempts from 201.118.95.188 on LIN-WEB03",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "Sentinel",
+    "createdAt": "2026-06-14T06:18:24.633Z",
+    "assignee": null
+  },
+  {
+    "id": "9c6f305f-4ae3-43a8-b1c5-baf41f34673a",
+    "title": "Suspicious registry modification on WIN-ENG08",
+    "severity": "High",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T08:46:45.768Z",
+    "assignee": "David Kim"
+  },
+  {
+    "id": "4dce9ad5-6a75-429e-9e3a-7a0660ee9e82",
+    "title": "Phishing email link clicked by user on WIN-HR06",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "AWS GuardDuty",
+    "createdAt": "2026-06-12T17:54:16.074Z",
+    "assignee": "Bob Martinez"
+  },
+  {
+    "id": "3638511f-5bfd-4744-986e-ad8fde094ad6",
+    "title": "Phishing email link clicked by user on WIN-HR06",
+    "severity": "Low",
+    "status": "Resolved",
+    "source": "CrowdStrike",
+    "createdAt": "2026-06-15T16:39:04.592Z",
+    "assignee": "Carol Williams"
+  }
+]
